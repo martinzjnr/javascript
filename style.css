@@ -1,0 +1,46 @@
+.image2 {
+    width: 200px;
+    height: 200px;
+}
+
+.bord {
+    border: 5px solid #0000cc;
+    padding: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+    background-color: lightyellow;
+
+}
+
+.ctn {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+
+}
+
+.pad {
+    padding-top: 40px;
+
+}
+
+.btn {
+    color: black;
+    font-size: 20px;
+    background-color: rgb(180, 221, 207);
+    border-radius: 15px;
+    padding: 10px;
+
+
+}
+.btn:hover{
+    color: white;
+    background-color: #0000cc;
+    box-shadow: 0 0 5px 5px indianred;
+    padding: 10px;
+    transition: all 0.5s;
+
+}
